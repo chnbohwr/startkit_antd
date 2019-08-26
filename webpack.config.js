@@ -84,7 +84,7 @@ module.exports = {
       /moment[/\\]locale$/,
       /zh-tw|zh-cn/
     ),
-    new GitRevisionPlugin()
+    new GitRevisionPlugin({commithashCommand: 'rev-parse --short HEAD'})
     // new BundleAnalyzerPlugin()
   ],
   devServer: {
