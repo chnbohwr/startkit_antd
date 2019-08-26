@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "~components/*": ["src/components/*"],
+      "~containers/*": ["src/containers/*"],
+      "~static/*": ["src/static/*"],
+      "~theme/": ["src/theme/"],
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
