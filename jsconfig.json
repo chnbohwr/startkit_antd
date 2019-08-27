@@ -8,7 +8,10 @@
       "~components/*": ["src/components/*"],
       "~containers/*": ["src/containers/*"],
       "~static/*": ["src/static/*"],
-      "~theme/": ["src/theme/"],
+      "~theme/*": ["src/theme/*"],
+      "~store/*": ["src/store/*"],
+      "~hooks/*": ["src/hooks/*"],
+      "~service/*":["src/service/*"],
     }
   },
   "exclude": ["node_modules", "dist"]

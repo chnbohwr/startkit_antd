@@ -59,6 +59,9 @@ module.exports = {
       '~containers': path.resolve(__dirname, 'src/containers/'),
       '~static': path.resolve(__dirname, 'src/static/'),
       '~theme': path.resolve(__dirname, 'src/theme/'),
+      '~store': path.resolve(__dirname, 'src/store/'),
+      '~hooks': path.resolve(__dirname, 'src/hooks/'),
+      '~service': path.resolve(__dirname, 'src/service/'),
       "@ant-design/icons/lib/dist$": path.resolve(__dirname, "src/static/icons/index.js")
     },
     extensions: [
