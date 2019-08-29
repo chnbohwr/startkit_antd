@@ -8,6 +8,7 @@ export const UserContextProvider = ({ children }) => {
     const [userData, _setUserData] = useState({
       name: 'kai',
       age: 40,
+      token: '',
     });
     const setUserData = (d) => _setUserData({...userData, ...d});
     return (

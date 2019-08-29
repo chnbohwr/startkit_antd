@@ -6,7 +6,8 @@
     "mocha": true
   },
   "globals": {
-    "ENV": false
+    "ENV": false,
+    "FRONTEND": true,
   },
   "extends": "airbnb",
   "rules": {
@@ -48,6 +49,9 @@
           ".jsx"
         ]
       }
+    ],
+    "import/prefer-default-export": [
+      0
     ],
     "react/jsx-space-before-closing": [
       "off"
