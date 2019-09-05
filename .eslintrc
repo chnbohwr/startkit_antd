@@ -65,21 +65,7 @@
         "allowAfterThis": true
       }
     ],
-    "import/no-unresolved": [
-      "error",
-      {
-        "ignore": [
-          "components/",
-          "config/",
-          "containers/",
-          "locale",
-          "redux_flow/",
-          "static/",
-          "theme/",
-          "utils/"
-        ]
-      }
-    ],
+    "import/no-unresolved": 0,
     "import/no-extraneous-dependencies": [
       "off"
     ],
